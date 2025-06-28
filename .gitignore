@@ -45,7 +45,6 @@ next-env.d.ts
 
 .firebase
 firebase-debug.log
-*.json
 !firebase.json          # keep this (it's safe)
 !firebaserc             
 jpmc-*-firebase-adminsdk-*.json
