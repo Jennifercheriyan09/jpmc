@@ -97,16 +97,7 @@ const Header = () => {
             Welcome, Guest! Redirecting to your schedule...
           </div>
         )}
-        <Button variant="outline" size="sm" onClick={() => {
-          if (pathname === "/") {
-            window.localStorage.setItem("guest-try", "1");
-            window.location.reload();
-          } else {
-            router.push("/sign-up?guest=true");
-          }
-        }}>
-          Try as a Guest
-        </Button>
+    
         <Button variant="outline" size="sm">
           Help & Support
         </Button>
